@@ -17,15 +17,13 @@
 
 /* Begin PBXFileReference section */
 		288FF80B206DB231000932BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		28C69F45204F6ACA00949F30 /* VisionFaceTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionFaceTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C69F48204F6ACA00949F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28C69F4A204F6ACA00949F30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28C69F4D204F6ACA00949F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28C69F4F204F6ACA00949F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C69F52204F6ACA00949F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28C69F54204F6ACA00949F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4231095939659F544A7FE2D5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		F768C173AC32106E22037F17 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		48FFDA042829849100BF9032 /* VisionFaceTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionFaceTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,31 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2207EA02D23BDB5081DFC66D /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				F768C173AC32106E22037F17 /* SampleCode.xcconfig */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
 		28C69F3C204F6ACA00949F30 = {
 			isa = PBXGroup;
 			children = (
 				288FF80B206DB231000932BA /* README.md */,
 				28C69F47204F6ACA00949F30 /* VisionFaceTrack */,
-				28C69F46204F6ACA00949F30 /* Products */,
-				2207EA02D23BDB5081DFC66D /* Configuration */,
-				68FAA60D8CCF0656E84C4137 /* LICENSE */,
+				48FFDA042829849100BF9032 /* VisionFaceTrack.app */,
 			);
-			sourceTree = "<group>";
-		};
-		28C69F46204F6ACA00949F30 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				28C69F45204F6ACA00949F30 /* VisionFaceTrack.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		28C69F47204F6ACA00949F30 /* VisionFaceTrack */ = {
@@ -77,14 +57,6 @@
 				28C69F54204F6ACA00949F30 /* Info.plist */,
 			);
 			path = VisionFaceTrack;
-			sourceTree = "<group>";
-		};
-		68FAA60D8CCF0656E84C4137 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				4231095939659F544A7FE2D5 /* LICENSE.txt */,
-			);
-			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +76,7 @@
 			);
 			name = VisionFaceTrack;
 			productName = VisionFaceTrack;
-			productReference = 28C69F45204F6ACA00949F30 /* VisionFaceTrack.app */;
+			productReference = 48FFDA042829849100BF9032 /* VisionFaceTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +105,7 @@
 				Base,
 			);
 			mainGroup = 28C69F3C204F6ACA00949F30;
-			productRefGroup = 28C69F46204F6ACA00949F30 /* Products */;
+			productRefGroup = 28C69F3C204F6ACA00949F30;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -190,7 +162,6 @@
 /* Begin XCBuildConfiguration section */
 		28C69F55204F6ACA00949F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F768C173AC32106E22037F17 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -250,7 +221,6 @@
 		};
 		28C69F56204F6ACA00949F30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F768C173AC32106E22037F17 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -303,11 +273,10 @@
 		};
 		28C69F58204F6ACA00949F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F768C173AC32106E22037F17 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9VK68KN5GR;
+				DEVELOPMENT_TEAM = 6GD2RK7JQN;
 				INFOPLIST_FILE = "$(SRCROOT)/VisionFaceTrack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -321,11 +290,10 @@
 		};
 		28C69F59204F6ACA00949F30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F768C173AC32106E22037F17 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9VK68KN5GR;
+				DEVELOPMENT_TEAM = 6GD2RK7JQN;
 				INFOPLIST_FILE = "$(SRCROOT)/VisionFaceTrack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
